@@ -13,7 +13,7 @@ accountCity = "Jaipur"// prefer not to use this method for declaring variable
 let accountState
 accountEmail ="hc@hc.com"
 accountPassword = "21342351"
-accountCity ="benguluru"s
+accountCity ="benguluru"
 
 console.log(accountId);
 console.table([accountEmail, accountPassword, accountCity, accountState])
