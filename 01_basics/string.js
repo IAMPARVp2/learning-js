@@ -30,4 +30,15 @@ const anotherString = gameName.slice(-8, 3)
 console.log(gameName);
 console.log(anotherString);
 
+const newStringOne ="   parvv   "
+console.log(newStringOne);
+console.log(newStringOne.trim());
+
+const url = "https://parvjnaini.com%20smbhjbfhs"
+
+console.log(url.replace('%20', '-'));
+console.log(url.includes('parv'))
+console.log(url.includes('jain'))
+console.log(gameName.split('-'))
+
 
