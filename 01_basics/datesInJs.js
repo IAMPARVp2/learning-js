@@ -60,3 +60,4 @@ let formattedWeekday = newDate.toLocaleString('default', {
 });
 
 console.log(formattedWeekday);
+ 
