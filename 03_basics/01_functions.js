@@ -41,7 +41,7 @@ function loginUserMessage(username = "sam"){
 // console.log(loginUserMessage("hitesh"))
 // console.log(loginUserMessage("hitesh"))
 
-
+ 
 function calculateCartPrice(val1, val2, ...num1){
     return num1
 }
@@ -62,7 +62,7 @@ handleObject({
     username: "sam",
     price: 399
 })
-
+ 
 const myNewArray = [200, 400, 100, 600]
 
 function returnSecondValue(getArray){
