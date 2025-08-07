@@ -15,5 +15,10 @@ accountEmail ="hc@hc.com"
 accountPassword = "21342351"
 accountCity ="benguluru"
 
-console.log(accountId);
+console.log(accountId);//console.log adds the new line automatically where as
+console.log(accountEmail);
 console.table([accountEmail, accountPassword, accountCity, accountState])
+console.table({city:"parv"})
+console.warn({city:"parv"})
+process.stdout.write("accountId");//where as it prints in the same line
+process.stdout.write(accountEmail);
