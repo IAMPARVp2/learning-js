@@ -10,12 +10,12 @@ console.log(3
 
 // DATATYPES
 
-let NAME ="PARV";
-let age =18
+let NAME = "PARV";
+let age = 18
 let isLoggedIn = false
 let state = null
 
-// number  =>2 to the power 154
+// number  =>2 to the power 54(range)
 // bigints
 // string  =>""
 // boolean=> false/true
@@ -27,5 +27,5 @@ let state = null
 // object
 
 console.log(typeof "parv")
-console.log(typeof undefined)
-console.log(typeof null)
+console.log(typeof undefined)//ans is undifined because it is a type
+console.log(typeof null)//ans is object because it is the object
