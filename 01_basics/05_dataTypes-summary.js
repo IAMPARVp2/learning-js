@@ -2,6 +2,11 @@
 
 // There are two types of data types one is primitive and another is non primitive 
 
+// 🧱 Primitive Data Types
+// These are the most basic data types in JavaScript. They are immutable (cannot be changed) and are stored directly in memory.
+
+// Non-Primitive (Reference) Data Types
+// These are more complex and are stored as references in memory. They are mutable, meaning their contents can be changed.
 
 //  Primitive
 
