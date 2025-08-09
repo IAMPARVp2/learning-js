@@ -42,7 +42,7 @@ let myObj = {//obj are a declared like  this in parenthesis
     age: 22,
 }
 
-const myFunction = function(){
+const myFunction = function(){//basic syntax of function is function(){}
     console.log("Hello world");
 }
 
@@ -71,7 +71,7 @@ anotherName = "chaiorcode"
 console.log(myyoutubename);
 console.log(anotherName);
 
-let userOne= 
+let userOne= //object
 {
     email : "me@google.com",
     upi: "jksfosiv@oksnbi"

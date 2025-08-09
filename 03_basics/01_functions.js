@@ -29,6 +29,7 @@ const result = addTwoNumbers(3, 5)
 
 // console.log("Result: ", result);
 
+//below is the most appropriate way to write the function----
 
 function loginUserMessage(username = "sam"){
     if(!username){
@@ -37,12 +38,16 @@ function loginUserMessage(username = "sam"){
     }
     return `${username} just logged in`
 }
-
+//---------------------------
 // console.log(loginUserMessage("hitesh"))
 // console.log(loginUserMessage("hitesh"))
 
- 
-function calculateCartPrice(val1, val2, ...num1){
+// function calculateCartPrice(...num1){//now here it is rest operator
+//     return num1
+// }
+
+
+function calculateCartPrice(val1, val2, ...num1){///now here it is rest operator
     return num1
 }
 

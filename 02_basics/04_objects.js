@@ -23,8 +23,8 @@ console.log(regularUser.full_name.userFullName.first_name)
 
 const obj1 ={1:"a", 2:"b"}
 const obj2 ={3:"c", 4:"d"}
-// // const obj4 = Object.assign( obj1, obj2)
-// const obj3 = Object.assign({}, obj1, obj2)
+const obj4 = Object.assign( obj1, obj2)
+const obj3 = Object.assign({}, obj1, obj2)
 
 //{}this bracket act as a target and others are source
 //if we will not assign empty obj then indirectrly  first obj will act as target and others as source
@@ -32,12 +32,12 @@ console.log(obj1);
 
 console.log(obj2);
 
-// console.log(obj3)
-// console.log(obj4);ss
+console.log(obj3)
+console.log(obj4);
 
 // but we wiill not use any of the above to assign we will use spread operator
 
-const obj3 = {...obj1,...obj2}
+// const obj3 = {...obj1,...obj2}
 
 console.log(obj3);
 

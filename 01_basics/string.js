@@ -19,13 +19,14 @@ console.log(gameName[0]);
 console.log(gameName.__proto__);
 console.log(gameName.length);
 console.log(gameName.toUpperCase());
-console.log(gameName.charAt(2));
-console.log(gameName.indexOf('p'));
+console.log(gameName.charAt(2));//to find the char at perticular posi
+console.log(gameName.indexOf('p'));//on which index a perticular character is
+console.log("end");
 
 const newString = gameName.substring(0,4);//last value is not included while printing the subString only 0123 indices included
 console.log(newString);
 
-const anotherString = gameName.slice(-8, 3);
+const anotherString = gameName.slice(-8, 3);//length =9-8=1 so starting index is 1 and ending index is 3 but this is not included so it will print till index 2
 
 console.log(gameName);
 console.log(anotherString);
