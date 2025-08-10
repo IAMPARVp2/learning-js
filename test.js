@@ -1,3 +1,21 @@
+//selct all <li> elements and print text using a loop
+
+let lis =document.querySelectorAll("li");
+
+lis.forEach((item)=>{
+    console.log(item.textContent)
+})
+
+
+
+
+
+
+
+
+
+
+
 // // console.log("parv");
 
 // // console.log(Math.floor(Math.random()* (max - min +1 ))+min);
@@ -15,13 +33,13 @@
 // user.username = "sam"
 // user.welcomeMessage()
 
-const user = {
-    username: "hitesh",
-    price: 999,
+// const user = {
+//     username: "hitesh",
+//     price: 999,
 
-    welcomeMessage: function() {
-        console.log(`${this.username} , welcome to website`);
-    }
-} 
+//     welcomeMessage: function() {
+//         console.log(`${this.username} , welcome to website`);
+//     }
+// } 
 
-user.welcomeMessage(); // This will now print "hitesh , welcome to website"
+// user.welcomeMessage(); // This will now print "hitesh , welcome to website"
